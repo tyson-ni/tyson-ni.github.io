@@ -1,0 +1,37 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #F7F1E8;
+}
+
+.navbar-default {
+  background-color: #F7F1E8;
+  border-color: #F7F1E8;
+}
+
+a.navbar-brand {
+  font-size: 130%;
+  font-weight: bolder;
+  color: #138D75 !important;
+  margin-right: 70px;
+}
+
+nav {
+  font-family: "Lato", monospace;
+  font-size: 130%;
+}
+
+a {
+  color: #CA6F1E !important;
+}
+
+#intro h3 {
+  font-weight: lighter;
+}
+
+div.starter-template {
+  padding-bottom: 30px;
+}
+
+mark {
+  background: #D4EFDF;
+}
