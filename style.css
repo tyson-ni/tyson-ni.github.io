@@ -5,23 +5,32 @@ body {
 
 .navbar-default {
   background-color: #F7F1E8;
-  border-color: #F7F1E8;
+  border: none;
+  /*border-color: #9E7D5F;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 0.5px;*/
 }
 
 a.navbar-brand {
+  font-family: "Nunito", "Lato", sans-serif;
   font-size: 130%;
-  font-weight: bolder;
   color: #138D75 !important;
-  margin-right: 70px;
+  margin-right: 60px;
 }
 
 nav {
-  font-family: "Lato", monospace;
+  font-family: "Lato", sans-serif;
   font-size: 130%;
 }
 
+nav a {
+  color: #D1792A !important;
+}
+
 a {
-  color: #CA6F1E !important;
+  color: #BD7B3F !important;
 }
 
 #intro h3 {
@@ -29,9 +38,15 @@ a {
 }
 
 div.starter-template {
-  padding-bottom: 30px;
 }
 
 mark {
   background: #D4EFDF;
+}
+
+div#about, div#projects, div#contact {
+}
+
+p.lead {
+  line-height: 150%;
 }
