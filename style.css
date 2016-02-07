@@ -1,16 +1,13 @@
 body {
   font-family: "Nunito", sans-serif;
   background-color: #F7F1E8;
+  margin-bottom: 60px;
 }
 
 .navbar-default {
   background-color: #F7F1E8;
   border: none;
-  /*border-color: #9E7D5F;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-width: 0.5px;*/
+  padding-bottom: 20px;
 }
 
 a.navbar-brand {
@@ -18,6 +15,13 @@ a.navbar-brand {
   font-size: 130%;
   color: #138D75 !important;
   margin-right: 60px;
+}
+
+li.active a {
+  background-color: inherit !important;
+  border-bottom: solid 1px !important;
+  padding-bottom: 3px !important;
+  font-weight: bold !important;
 }
 
 nav {
@@ -30,23 +34,59 @@ nav a {
 }
 
 a {
-  color: #BD7B3F !important;
+  color: #D1792A !important;
 }
 
 #intro h3 {
   font-weight: lighter;
 }
 
-div.starter-template {
+#about h2, #projects h2, #intern h2, #contact h2 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 mark {
   background: #D4EFDF;
+  padding: 0.1em;
 }
 
-div#about, div#projects, div#contact {
+.row a {
+  text-decoration: none;
 }
 
 p.lead {
   line-height: 150%;
+}
+
+p.project-title {
+  margin: 10px;
+  color: #D1792A;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+
+p.project-text {
+  color: black;
+  margin: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+
+div.thumbnail {
+  background-color: #FFFFF9;
+}
+
+div.thumbnail:hover {
+  background-color: #FAFDFB;
+}
+
+small {
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 10px;
 }

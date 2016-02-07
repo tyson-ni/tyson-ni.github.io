@@ -27,7 +27,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="lightbulb.svg"/>
+    <link rel="shortcut icon" href="lightbulb.ico"/>
   </head>
 
   <body>
@@ -58,16 +58,13 @@
 
       <div class="starter-template">
         <h1 style="font-size: 40px; margin-top: 30px">I am a student at UCLA,</h1> <br>
-        <h3>I watch <a href="https://www.youtube.com/watch?v=OivMlWXtWpY" target="_blank">documentaries</a>
-          on the plane,</h3>
         <h3>I like <a href="http://tyson-ni.github.io/Stats-Classes-Visualized/" target="_blank">visualizing</a>,
-          <a href="https://www.kaggle.com/tysonni" target="_blank">cleaning and analyzing data</a>,</h3>
+          <a href="https://www.kaggle.com/tysonni" target="_blank">cleaning and modeling data</a>,</h3>
         <h3>I <a href="https://medium.com/@tyson_ni/highlights" target="_blank">read</a>
-          and <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898" target="_blank">have</a> read
-          <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank">lots</a> of
-          <a href="http://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536" target="_blank">stuff</a>,</h3>
-        <h3>I also like soccer, <a href="https://www.youtube.com/watch?v=Q888PBtrWc0" target="_blank">Radiohead</a>,
-          music, <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ" target="_blank">comedy</a> and other things</h3>
+          <a href="http://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536" target="_blank">a</a>
+          <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank">lot</a> and
+          sometimes <a href="https://medium.com/@tyson_ni" target="_blank">write</a></h3>
+        <h3>I want to work on <mark>meaningful projects</mark> this summer and beyond</h3>
       </div>
 
     </div><!-- /.container -->
@@ -79,9 +76,11 @@
       <p class="lead">About me ... I like reading and listening to music in my free time. These are the books I've read.
         And these are the people and examples that inspired me. This is what I want to do...
       </p>
+      <p class="lead">I also like soccer, <a href="https://www.youtube.com/watch?v=Q888PBtrWc0" target="_blank">music</a>,
+        <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ" target="_blank">comedy</a>, design, politics among other things
+      </p>
       <p class="lead">I don't want to promise too many things. Life's journey will take me to unknown strange places.
         Watch this space in the coming years.</p>
-      <p class="lead"><mark>TODO ...</mark></p>
     </div>
 
     <div class="container" id="projects">
@@ -95,18 +94,89 @@
       <p class="lead">
         Here's a sample of them...
       </p>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class=col-sm-8>
+            <a href="http://tyson-ni.github.io/Stats-Classes-Visualized" target="_blank">
+            <div class="thumbnail">
+              <p class="lead project-title">Visualizing UCLA Stats Program <small>(2016)</small></p>
+              <img src="img/stats_visualized.png" class="img-responsive" height="600px" width="600px">
+              <p class="lead project-text">
+                I made this interactive visualization of the UCLA Stats program to help students select classes and plan for the major or minor. Working on this project improved my <mark>design intuition and
+                ability to visually communicate complex information.</mark>
+              </p>
+              <p class="lead project-text">
+                This was the first web app that I built "from scratch", using vanilla JavaScript, <mark>D3.js</mark>, Bootstrap CSS and straightforward HTML.
+              </p>
+              <p class="lead project-text">
+                I shared it with more than <mark>700 Stats Club members</mark> and other UCLA students and got really positive feedback.
+                This also got me my latest gig at the student newspaper as a front end developer. I will continually update the data as well as add features.
+              </p>
+            </div>
+          </a>
+          </div>
+        <div class="col-sm-2"></div>
+        </div>
+
+        <div class="row">
+          <div class=col-sm-6>
+            <a href="https://www.kaggle.com/c/sf-crime" target="_blank">
+            <div class="thumbnail">
+              <p class="lead project-title">Kaggle SF Crime Contest <small>(2015)</small></p>
+              <img src="img/crime.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                I participated in this machine learning contest to work with socio-geographic data and build predictive models.
+                The biggest challenge was to estimate a probability distribution for each unseen observation, rather than just a one-shot classification.
+              </p>
+              <p class="lead project-text">
+                <mark>In English: I had to quantify every possibility as remote as it might be</mark> by treating outliers with respect.
+              </p>
+              <p class="lead project-text">
+                As computing speed and my own time became precious, I needed to deal with these constraints
+                through <mark>sampling and feature engineering</mark>.
+              </p>
+            </div>
+          </a>
+          </div>
+
+          <div class=col-sm-6>
+            <a href="https://bruindashboard.shinyapps.io/Sensors/" target="_blank">
+            <div class="thumbnail">
+              <p class="lead project-title">Air Sensor Dashboard <small>(2015)</small></p>
+              <img src="img/shiny.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                blah blah blah
+              </p>
+            </div>
+          </a>
+          </div>
+
+        </div>
+
+      </div>
+
       <p class="lead">
         I'm just getting started and will hopefully create more works that are of ever improving quality.
         Most of all, I hope my personal projects can eventually help me achieve my more ambituous goals.
       </p>
-      <p class="lead"><mark>TODO ...</mark></p>
+    </div>
+
+
+    <div class="container" id="intern">
+      <h2>I am looking for a <mark>summer internship</mark>!</h2>
     </div>
 
     <div class="container" id="contact">
       <a name="contact"></a>
       <h2>Contact me!</h2>
         <address>
-          <p class="lead">Email me at <a href="mailto:#">tni@ucla.edu</a></p>
+          <p class="lead">Email me at <a href="mailto:tni@ucla.edu">tni@ucla.edu</a></p>
+          <p class="lead">Find my writings on <a href="https://medium.com/@tyson_ni" target="_blank">Medium</a></p>
+          <p class="lead">Connect with me on <a href="https://www.linkedin.com/in/tyson-ni-b8755575" target="_blank">Linkedin</a></p>
+          <p class="lead">Check out my code on <a href="https://github.com/tyson-ni?tab=repositories" target="_blank">Github</a></p>
       </address>
     </div>
 
@@ -114,7 +184,7 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="bootstrap-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
   </body>
 </html>
