@@ -7,7 +7,6 @@ body {
 .navbar-default {
   background-color: #F7F1E8;
   border: none;
-  padding-bottom: 20px;
 }
 
 a.navbar-brand {
@@ -49,6 +48,11 @@ a {
 mark {
   background: #D4EFDF;
   padding: 0.1em;
+}
+
+div#about, div#projects, div#contact {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .row a {
