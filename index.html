@@ -50,6 +50,7 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="bookmarks.html">Bookmarks</a></li>
             <li><a href="#contact">Contact me!</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -76,13 +77,16 @@
       <a name="about"></a>
       <h2>About me</h2>
       <p class="lead">
-        About me ... I like reading and listening to music in my free time. These are the books I've read.
+        About me ... I like reading and listening to music in my free time.
         And these are the people and examples that inspired me. This is what I want to do...
       </p>
       <p class="lead">
         I also like soccer, <a href="https://www.youtube.com/watch?v=Q888PBtrWc0">music</a>,
         <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ">comedy</a>, design, politics among other things
       </p>
+      <p class="lead">Languages I speak: English, Mandarin</p>
+      <p class="lead">Languages I write: English, Mandarin, R, Python, JavaScript, C++</p>
+      <p class="lead">Languages I understand: Cantonese, Radiohead</p>
       <p class="lead">
         I don't want to promise too many things. Life's journey will take me to unknown strange places.
         Watch this space in the coming years.
@@ -93,12 +97,15 @@
       <a name="projects"></a>
       <h2>Projects</h2>
       <p class="lead">
-        I like working on random projects. Having been a loyal and obsessive reader most of my life, it's been
-        very exhilarating to working on creative projects. Whether it's extracting meaning and insights out of large amounts of data
+        I love working on projects. Having been a loyal but passive reader most of my life, it's been
+        very exhilarating to work on creative projects.
+      </p>
+      <p class="lead">
+        Whether it's extracting insights out of large amounts of information
         or visualizing them to a broader audience, I learnt a lot working on them.
       </p>
       <p class="lead">
-        Here's a sample of them...
+        Here's a sample, in chronological order:
       </p>
     </div>
 
@@ -116,11 +123,11 @@
                 ability to visually communicate complex information.</mark>
               </p>
               <p class="lead project-text">
-                This was the first web app that I built "from scratch", using vanilla JavaScript, <mark>D3.js</mark>, Bootstrap CSS and straightforward HTML.
+                This was the first web app that I built "from scratch", using vanilla JavaScript, D3.js, Bootstrap CSS and straightforward HTML.
               </p>
               <p class="lead project-text">
-                I shared it with more than <mark>700 Stats Club members</mark> and other UCLA students and got really positive feedback.
-                This also got me my latest gig at the student newspaper as a front end developer. I will continually update the data as well as add features.
+                I shared it with more than <mark>700 Stats Club members</mark> and other UCLA students and got positive feedback.
+                This also landed me my latest gig at the student newspaper as a front end developer.
               </p>
             </div>
           </a>
@@ -130,20 +137,66 @@
 
         <div class="row">
           <div class=col-sm-6>
+            <a href="http://bit.ly/1K0muLw">
+            <div class="thumbnail">
+              <p class="lead project-title">Data Visualization Workshop <small>(2016)</small></p>
+              <img src="img/workshop.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                <mark>I ran this workshop for around 30 Stats Club members, introducing the principles of data visualization and the essential steps.</mark>
+              </p>
+              <p class="lead project-text">
+                To make the workshop useful for members with different backgrounds, I provided a broad overview while also
+                teaching specific techniques. I analyzed examples and emphasized how having a Point of View
+                is neccessary to bring meaning out of raw data.
+              </p>
+              <p class="lead project-text">
+                This workshop was also a <mark>personal experiment</mark>. For example, I decided to avoid using bullets or bolding
+                text, relying only on spacing and font size to convey hierachical information. I also created a short Google Forms for
+                members to provide feedback.
+              </p>
+              <p class="lead project-text">
+                <mark>Take a look!</mark>
+              </p>
+            </div>
+          </a>
+          </div>
+
+          <div class=col-sm-6>
             <a href="https://www.kaggle.com/c/sf-crime">
             <div class="thumbnail">
               <p class="lead project-title">Kaggle SF Crime Contest <small>(2015)</small></p>
               <img src="img/crime.png" class="img-responsive" height="400px" width="400px">
               <p class="lead project-text">
-                I participated in this machine learning contest to work with socio-geographic data and build predictive models.
+                <mark>I participated in this machine learning contest to work with socio-geographic data and build predictive models.</mark>
                 The biggest challenge was to estimate a probability distribution for each unseen observation, rather than just a one-shot classification.
               </p>
               <p class="lead project-text">
-                <mark>In English: I had to quantify every possibility as remote as it might be</mark> by treating outliers with respect.
+                Put simply: <mark>I had to quantify every possibility as remote as it might be.</mark>
+                In addition, computing speed became a challenge due to size of the data.
               </p>
               <p class="lead project-text">
-                As computing speed and my own time became precious, I needed to deal with these constraints
-                through <mark>sampling and feature engineering</mark>.
+                To deal with these constraints, <mark>I tried random sampling and engineered new variables from raw data.</mark>
+                Having done a few other Kaggle competitions, I learn the most from this.
+              </p>
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="https://bruindashboard.shinyapps.io/Sensors/">
+            <div class="thumbnail">
+              <p class="lead project-title">Air Sensor Dashboard <small>(2015)</small></p>
+              <img src="img/shiny.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                <mark>I built this interactive dashboard of air quality data.</mark>
+                It provides a big picture overview of CO2 level, temperature and humidity throughout the day. I also provided an easy way for users to plot the relationship between any
+                two variables and interactively examine the raw data.
+              </p>
+              <p class="lead project-text">
+                I coded this dashboard <mark>entirely in R</mark>, using vanilla R to format the data and R Shiny to create the dashboard.
+                The data came from the air quality sensors my roommate was testing for his research project.
               </p>
             </div>
           </a>
@@ -152,11 +205,66 @@
           <div class="col-sm-6">
             <a href="https://bruindashboard.shinyapps.io/Sensors/">
             <div class="thumbnail">
-              <p class="lead project-title">Air Sensor Dashboard <small>(2015)</small></p>
-              <img src="img/shiny.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-title">IBM Watson Case Presentation <small>(2014)</small></p>
+              <img src="img/watson.png" class="img-responsive" height="400px" width="400px">
               <p class="lead project-text">
-                blah blah blah
+                blah blah blah ...
               </p>
+
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="http://bit.ly/1nXjqFI">
+            <div class="thumbnail">
+              <p class="lead project-title">UCLA DataFest <small>(2015)</small></p>
+              <img src="img/datafest.png" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                blah blah blah ...
+              </p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="#">
+            <div class="thumbnail">
+              <p class="lead project-title">Target Case Competition <small>(2014)</small></p>
+              <img src="#" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                blah blah blah ...
+              </p>
+
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="#">
+            <div class="thumbnail">
+              <p class="lead project-title">Honduras Microfinance Trip <small>(2014)</small></p>
+              <img src="#" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                blah blah blah ...
+              </p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="#">
+            <div class="thumbnail">
+              <p class="lead project-title"># <small>(2014)</small></p>
+              <img src="#" class="img-responsive" height="400px" width="400px">
+              <p class="lead project-text">
+                blah blah blah ...
+              </p>
+
             </div>
           </a>
           </div>
@@ -164,6 +272,17 @@
 
       </div>
 
+
+    <div class="container" id="bookmarks">
+      <h2>Bookmarks</h2>
+      <p class="lead">
+        <a href="bookmarks.html">Check out</a>
+        a list of useful resources I compiled and my favorite reads.
+      <p>
+      <p class="lead">
+        They cover topics like data science, visualization, coding, medicine, innovation, politics and business.
+      </p>
+    </div>
 
     <div class="container" id="intern">
       <h2>I am looking for a <mark>summer internship</mark>!</h2>

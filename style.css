@@ -10,7 +10,7 @@ body {
 }
 
 a.navbar-brand {
-  font-family: "Nunito", "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 130%;
   color: #138D75 !important;
   margin-right: 60px;
@@ -18,7 +18,7 @@ a.navbar-brand {
 
 li.active a {
   background-color: inherit !important;
-  border-bottom: solid 1px !important;
+  border-bottom: solid 2px !important;
   padding-bottom: 3px !important;
   font-weight: bold !important;
 }
@@ -28,7 +28,7 @@ nav {
   font-size: 130%;
 }
 
-nav a {
+.navbar-brand {
   color: #D1792A !important;
 }
 
@@ -40,7 +40,7 @@ a {
   font-weight: lighter;
 }
 
-#about h2, #projects h2, #intern h2, #contact h2 {
+h2 {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -50,9 +50,10 @@ mark {
   padding: 0.1em;
 }
 
-div#about, div#projects, div#contact {
+div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
   padding-left: 70px;
   padding-right: 70px;
+  margin-bottom: 70px;
 }
 
 .row a {
