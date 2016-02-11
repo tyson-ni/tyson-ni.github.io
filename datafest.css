@@ -9,6 +9,7 @@ h1 {
   font-weight: 400;
 }
 
+
 p.dplyr {
   margin-top: 50px;
   text-align: center;
@@ -30,4 +31,32 @@ div#more-to-come {
 
 div#more-to-come p {
   font-weight: 300;
+}
+
+@keyframes datafest {
+  0% { background: #00A3E0; }
+  100% { background: #FFB81C; }
+}
+
+mark#datafest {
+  animation-name: datafest;
+  animation-delay: 1000ms;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+  padding: 0.1em;
+}
+
+p#bookmark {
+  -webkit-animation-duration: 2500ms;
+  -webkit-animation-timing-function: ease-in-out;
+
+  -moz-animation-duration: 2500ms;
+  -moz-animation-timing-function: ease-in-out;
+
+  -ms-animation-duration: 2500ms;
+  -ms-animation-timing-function: ease-in-out;
 }
