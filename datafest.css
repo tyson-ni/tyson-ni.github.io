@@ -1,0 +1,33 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #F8F5EF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+p.dplyr {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  font-size: 50px;
+}
+
+a {
+  color: #D1792A !important;
+}
+
+mark {
+  background: rgb(197, 232, 211);
+}
+
+div#more-to-come {
+  margin-top: 70px;
+}
+
+div#more-to-come p {
+  font-weight: 300;
+}
