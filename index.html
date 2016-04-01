@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Tyson Ni's webpage">
+    <meta name="description" content="Tyson Ni's personal webpage">
     <meta name="author" content="Tyson Ni">
 
     <title>Tyson Ni</title>
 
     <script src="jquery-1.11.3.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="jquery.bootstrap-autohidingnavbar.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -23,6 +23,8 @@
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet">
     <link href="T.ico "rel="shortcut icon">
   </head>
@@ -42,31 +44,42 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="bookmarks.html">Bookmarks</a></li>
             <li><a href="#contact">Contact me!</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
     <div class="container" id="intro">
-
       <div>
-        <h1 style="font-size: 40px; margin-top: 30px">I am a student at UCLA,</h1> <br>
-        <h3>I like <a href="http://tyson-ni.github.io/Stats-Classes-Visualized/">visualizing</a>,
-          <a href="https://github.com/tyson-ni/crime_kaggle">cleaning</a> and <a href="https://www.kaggle.com/tysonni">modeling</a> data,</h3>
-        <h3>I <a href="https://medium.com/@tyson_ni/highlights">read</a>
+        <h1 id="me-ucla-heading">I'm a student at UCLA,</h1>
+        <br>
+        <p class="intro">I like
+          <a href="http://tyson-ni.github.io/Stats-Classes-Visualized/">visualizing</a>,
+          <a href="https://github.com/tyson-ni/crime_kaggle">cleaning</a>
+          and
+          <a href="https://www.kaggle.com/tysonni">modeling</a>
+          data,
+        </p>
+        <p class="intro">
+          I
+          <a href="https://medium.com/@tyson_ni/highlights">read</a>
           <a href="http://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536">a</a>
-          <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555">lot</a> and
-          sometimes <a href="https://medium.com/@tyson_ni">write</a></h3>
-        <h3>I want to work on <mark>meaningful projects</mark> this summer and beyond</h3>
+          <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555">lot</a>
+          and sometimes
+          <a href="https://medium.com/@tyson_ni">write</a>
+        </p>
+        <p class="intro">I want to work on
+          <mark>meaningful projects</mark>
+          this summer and beyond
+        </p>
       </div>
 
-    </div><!-- /.container -->
-
+    </div>
 
     <div class="container" id="about">
       <a name="about"></a>
@@ -75,13 +88,14 @@
         About me ... TODO
       </p>
       <p class="lead">
-        I also like soccer, <a href="https://www.youtube.com/watch?v=Q888PBtrWc0">music</a>,
-        <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ">comedy</a>, design, politics among other things
+        I also like soccer,
+        <a href="https://www.youtube.com/watch?v=Q888PBtrWc0">music</a>,
+        <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ">comedy</a>,
+        politics, and design, among other things
       </p>
-      <p class="lead">Languages I speak: English, Mandarin</p>
-      <p class="lead">Languages I write: English, Mandarin, R, Python, JavaScript, C++</p>
+      <p class="lead">Languages I know: English, Mandarin, R, Python, JavaScript, C++</p>
       <p class="lead">Strengths and weaknesses: ... TODO</p>
-      <table class="table table-hover">
+      <table class="table">
         <thead>
           <tr>
             <th class="col-sm-4">Strengths</th>
@@ -89,25 +103,25 @@
           </tr>
         </thead>
         <tr>
-          <td>strength1</td>
-          <td>weakness1</td>
+          <td>strength 1</td>
+          <td>weakness 1</td>
         </tr>
         <tr>
-          <td>strength2</td>
-          <td>weakness2</td>
+          <td>strength 2</td>
+          <td>weakness 2</td>
         </tr>
         <tr>
-          <td>strength3</td>
-          <td>weakness3</td>
+          <td>strength 3</td>
+          <td>weakness 3</td>
         </tr>
         <tr>
-          <td>strength4</td>
-          <td>weakness4</td>
+          <td>strength 4</td>
+          <td>weakness 4</td>
         </tr>
 
       </table>
       <p class="lead">
-        I don't want to promise too many things knowing that life can take me to interesting places.
+        I don't want to promise many things, knowing that life can take me to interesting places.
         Watch this space in the coming years. (Or not)
       </p>
     </div>
@@ -121,186 +135,193 @@
       </p>
       <p class="lead">
         Whether it's extracting insights out of large amounts of information
-        or visualizing them to a broader audience, I learnt a lot working on them.
+        or visually presenting them to a general audience, I learnt a lot working on projects.
       </p>
       <p class="lead">
-        Here's a sample, in roughly chronological order:
+        Here's a sample, in (roughly) chronological order:
       </p>
     </div>
 
       <div class="container" id="showcase">
-
         <div class="row">
           <div class="col-sm-2"></div>
-          <div class=col-sm-8>
+          <div class="col-sm-8">
             <a href="http://tyson-ni.github.io/Stats-Classes-Visualized">
-            <div class="thumbnail">
-              <p class="lead project-title">Visualizing UCLA Stats Program <small>(2016)</small></p>
-              <img src="img/stats_visualized.png" class="img-responsive" height="600px" width="600px">
-              <p class="lead project-text">
-                I made this interactive visualization of the UCLA Stats program to help students select classes and plan for the major or minor. Working on this project improved my <mark>design intuition and
-                ability to visually communicate complex information.</mark>
-              </p>
-              <p class="lead project-text">
-                This was the first web app that I built "from scratch", using vanilla JavaScript, D3.js, Bootstrap CSS and straightforward HTML.
-              </p>
-              <p class="lead project-text">
-                I shared it with more than <mark>700 Stats Club members</mark> and other UCLA students and got positive feedback.
-                This also landed me my latest gig at the student newspaper as a front end developer.
-              </p>
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">Visualizing UCLA Stats Program <small>(2016)</small></p>
+                <img src="img/stats_visualized.png" class="img-responsive" height="600px" width="600px">
+                <p class="lead project-text">
+                  I made this visualization of the UCLA Stats program to help students
+                  select classes and plan for the major or minor.
+                  Working on this project improved my
+                  <mark>
+                    design intuition and ability to visually communicate complex information.
+                  </mark>
+                </p>
+                <p class="lead project-text">
+                  This was the first web app I built "from scratch",
+                  using vanilla JavaScript, D3.js, Bootstrap CSS and HTML.
+                </p>
+                <p class="lead project-text">
+                  I shared it with more than 700 Stats Club members and got positive feedback.
+                  It also landed me my latest gig at Daily Bruin as a front end developer.
+                </p>
+              </div>
+            </a>
           </div>
-        <div class="col-sm-2"></div>
+          <div class="col-sm-2"></div>
         </div>
 
         <div class="row">
-          <div class=col-sm-6>
+          <div class="col-sm-6">
+            <a href="http://stack.dailybruin.com/2016/02/24/grades-ge/">
+              <div class="thumbnail">
+                <p class="lead project-title">Lecture Grades Blog Post
+                  <small>(2016)</small>
+                </p>
+                <img src="img/ge.png" class="img-responsive">
+                <p class="lead project-text">
+                  I analyzed the official grade distribution data and made an interactive chart to help students
+                  compare GE classes.
+                </p>
+                <p class="lead project-text">
+                  In addition, I wrote about interesting aspects related to GE classes using graphs
+                  and provided a way for students to lookup the statistics of any class.
+                  This article was my first collaboration with other developers at Daily Bruin.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6">
             <a href="http://bit.ly/1K0muLw">
-            <div class="thumbnail">
-              <p class="lead project-title">Data Visualization Workshop <small>(2016)</small></p>
-              <img src="img/workshop.png" class="img-responsive">
-              <p class="lead project-text">
-                I ran this workshop for around 30 Stats Club members, introducing the principles of data visualization and the essential steps.
-              </p>
-              <p class="lead project-text">
-                To make the workshop useful for members with different backgrounds, I provided a broad overview while also
-                teaching specific techniques. I analyzed examples and emphasized how having a Point of View
-                is neccessary to bring meaning out of raw data.
-              </p>
-              <p class="lead project-text">
-                This workshop was also a <mark>personal experiment</mark>. For example, I decided to avoid using bullets or bolding
-                text, relying only on spacing and font size to convey hierachical information. I also created a short Google Forms for
-                members to provide feedback.
-              </p>
-              <p class="lead project-text">
-                <mark>Take a look!</mark>
-              </p>
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">Data Visualization Workshop
+                  <small>(2016)</small>
+                </p>
+                <img src="img/workshop.png" class="img-responsive">
+                <p class="lead project-text">
+                  I ran this workshop for Stats Club members, introducing data visualization.
+                </p>
+                <p class="lead project-text">
+                  To make the workshop useful for members with different backgrounds,
+                  I provided a broad overview while also teaching specific techniques.
+                  We critiqued examples and discussed how having a Point of View
+                  is essential to bringing meaning out of raw data.
+                </p>
+                <p class="lead project-text">
+                  <mark>Take a look!</mark>
+                </p>
+              </div>
+            </a>
           </div>
+        </div>
 
-          <div class=col-sm-6>
+        <div class="row">
+          <div class="col-sm-6">
             <a href="https://www.kaggle.com/c/sf-crime">
-            <div class="thumbnail">
-              <p class="lead project-title">Kaggle SF Crime Contest <small>(2015)</small></p>
-              <img src="img/crime.png" class="img-responsive">
-              <p class="lead project-text">
-                I participated in this machine learning contest to work with socio-geographic data and build predictive models.
-                The biggest challenge was to estimate a probability distribution for each unseen observation, rather than just a one-shot classification.
-              </p>
-              <p class="lead project-text">
-                Put simply: <mark>I had to quantify every possibility as remote as it might be.</mark>
-                In addition, computing speed became a challenge due to size of the data.
-              </p>
-              <p class="lead project-text">
-                To deal with these constraints, I tried random sampling and engineered new variables from raw data.
-                Having done a few other Kaggle competitions, I learn the most from this.
-              </p>
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">Kaggle SF Crime Contest
+                  <small>(2015)</small>
+                </p>
+                <img src="img/crime.png" class="img-responsive">
+                <p class="lead project-text">
+                  I participated in this machine learning contest to work with socio-geographic data and build predictive models.
+                  The biggest challenge was to estimate a probability distribution for each observation,
+                  rather than simply provide a one-shot classification.
+                </p>
+                <p class="lead project-text">
+                  Put simply:
+                  <mark>I had to quantify every possibility as remote as it might be.</mark>
+                  In addition, computing speed became a challenge due to size of the data.
+                </p>
+                <p class="lead project-text">
+                  To deal with these constraints, I tried random sampling and engineered new geographic variables.
+                  Having done a few other Kaggle competitions, I learn the most from this.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="https://bruindashboard.shinyapps.io/Sensors/">
+              <div class="thumbnail">
+                <p class="lead project-title">Air Sensor Dashboard <small>(2015)</small></p>
+                <img src="img/shiny.png" class="img-responsive">
+                <p class="lead project-text">
+                  I built this dashboard of air quality data.
+                  It provided an overview of CO2 level, temperature and humidity throughout a 3-day period.
+                  I also designed an easy way for users to plot the relationship between any
+                  two variables and interactively examine the raw data.
+                </p>
+                <p class="lead project-text">
+                  I coded this dashboard entirely in R, using vanilla R to format data and R Shiny to create the dashboard.
+                  The data came from air quality sensors my roommate was testing for his research project.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-6">
             <a href="https://bruindashboard.shinyapps.io/Sensors/">
-            <div class="thumbnail">
-              <p class="lead project-title">Air Sensor Dashboard <small>(2015)</small></p>
-              <img src="img/shiny.png" class="img-responsive">
-              <p class="lead project-text">
-                I built this interactive dashboard of air quality data.
-                It provides a big picture overview of CO2 level, temperature and humidity throughout the day. I also provided an easy way for users to plot the relationship between any
-                two variables and interactively examine the raw data.
-              </p>
-              <p class="lead project-text">
-                I coded this dashboard entirely in R, using vanilla R to format data and R Shiny to create the dashboard.
-                The data came from the air quality sensors my roommate was testing for his research project.
-              </p>
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">IBM Watson Case Presentation <small>(2014)</small></p>
+                <img src="img/watson.png" class="img-responsive">
+                <p class="lead project-text">
+                  TODO ...
+                </p>
+              </div>
+            </a>
           </div>
 
-          <div class="col-sm-6">
-            <a href="https://bruindashboard.shinyapps.io/Sensors/">
-            <div class="thumbnail">
-              <p class="lead project-title">IBM Watson Case Presentation <small>(2014)</small></p>
-              <img src="img/watson.png" class="img-responsive">
-              <p class="lead project-text">
-                TODO ...
-              </p>
-
-            </div>
-          </a>
-          </div>
-        </div>
-
-        <div class="row">
           <div class="col-sm-6">
             <a href="http://bit.ly/1nXjqFI">
-            <div class="thumbnail">
-              <p class="lead project-title">UCLA DataFest <small>(2015)</small></p>
-              <img src="img/datafest.png" class="img-responsive">
-              <p class="lead project-text">
-                <mark>Three teammates and I participated in the annual data hackathon where we analyzed data provided by
-                a car sales website.</mark> This was my first experience ... TODO
-              </p>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-sm-6">
-            <a href="#">
-            <div class="thumbnail">
-              <p class="lead project-title">Target Case Competition <small>(2014)</small></p>
-              <img src="#" class="img-responsive">
-              <p class="lead project-text">
-                TODO ...
-              </p>
-
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">UCLA DataFest <small>(2015)</small></p>
+                <img src="img/datafest.png" class="img-responsive">
+                <p class="lead project-text">
+                  Three teammates and I participated in UCLA's annual data hackathon where we analyzed data provided by
+                  a car sales website. This was my first experience ... TODO
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-6">
             <a href="#">
-            <div class="thumbnail">
-              <p class="lead project-title">Honduras Microfinance Trip <small>(2014)</small></p>
-              <img src="#" class="img-responsive">
-              <p class="lead project-text">
-                TODO ...
-              </p>
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">Target Case Competition <small>(2014)</small></p>
+                <img src="#" class="img-responsive">
+                <p class="lead project-text">
+                  TODO ...
+                </p>
+
+              </div>
+            </a>
           </div>
 
           <div class="col-sm-6">
             <a href="#">
-            <div class="thumbnail">
-              <p class="lead project-title"># <small>(2014)</small></p>
-              <img src="#" class="img-responsive">
-              <p class="lead project-text">
-                TODO ...
-              </p>
-
-            </div>
-          </a>
+              <div class="thumbnail">
+                <p class="lead project-title">Honduras Microfinance Trip <small>(2014)</small></p>
+                <img src="#" class="img-responsive">
+                <p class="lead project-text">
+                  TODO ...
+                </p>
+              </div>
+            </a>
           </div>
         </div>
-
       </div>
-
 
     <div class="container" id="bookmarks">
       <h2>Bookmarks</h2>
       <p class="lead">
         <a href="bookmarks.html">Check out</a>
         a list of useful resources I compiled and my favorite reads. TODO ...
-      </p>
-      <p class="lead">
-        They cover topics like data science, visualization, coding, medicine, design, politics and business.
       </p>
     </div>
 
@@ -321,10 +342,23 @@
 
   </body>
 
+  <script>
+    var shiftWindow = function() { window.scrollBy(0, -50) };
+    if (location.hash) shiftWindow();
+    window.addEventListener("hashchange", shiftWindow);
+  </script>
+
+  <script>
+    var homeSelection = ".navbar-nav li:first-child";
+    var allSelections = ".navbar-nav li";
+    $(homeSelection).toggleClass("active");
+    $(allSelections).on("click", function(event) {
+      $(this).toggleClass("active").siblings().removeClass("active");
+    });
+  </script>
+
   <!-- <script>
-
     $(".navbar-fixed-top").autoHidingNavbar({ animationDuration: 400 });
-
   </script> -->
 
 </html>

@@ -1,7 +1,83 @@
+/*
+background color: #F8F5EF
+link color: #D1792A
+narbar name color: #138D75
+navbar link color: #4592D7
+ */
+
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #F8F5EF;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+}
+
+div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 70px;
+}
+
+div#intro {
+  margin-top: 90px;
+  text-align: center;
+}
+
+
+div#intro h3 {
+  font-weight: lighter;
+}
+
+div.thumbnail {
+  background-color: #FFFFF9;
+}
+
+div.thumbnail:hover {
+  background-color: #FAFDFB;
+}
+
+nav {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 120%;
+}
+
+#me-ucla-heading {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p.intro {
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+p.lead {
+  line-height: 150%;
+}
+
+p.project-title {
+  margin: 10px;
+  color: #D1792A;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+
+p.project-text {
+  font-family: 'Hind', sans-serif;
+  color: black;
+  margin: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
 }
 
 .navbar-default {
@@ -22,26 +98,21 @@ li.active a {
   padding-bottom: 3px !important;
 }
 
-nav {
-  font-family: "Lato", sans-serif;
-  font-size: 120%;
+.navbar-nav a {
+  color: #4592D7 !important;
 }
 
 .navbar-brand {
   color: #D1792A !important;
 }
 
-a {
-  color: #D1792A !important;
-}
-
-#intro h3 {
+table {
+  font-family: 'Hind', sans-serif;
   font-weight: lighter;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 50px;
+a {
+  color: #D1792A !important;
 }
 
 mark {
@@ -49,48 +120,8 @@ mark {
   padding: 0.1em;
 }
 
-div#intro {
-  text-align: center;
-}
-
-div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
-  padding-left: 70px;
-  padding-right: 70px;
-  margin-bottom: 70px;
-}
-
 .row a {
   text-decoration: none;
-}
-
-p.lead {
-  line-height: 150%;
-}
-
-p.project-title {
-  margin: 10px;
-  color: #D1792A;
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  border: none;
-  font-family: "Lato", sans-serif;
-}
-
-p.project-text {
-  color: black;
-  margin: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: none;
-}
-
-div.thumbnail {
-  background-color: #FFFFF9;
-}
-
-div.thumbnail:hover {
-  background-color: #FAFDFB;
 }
 
 .img-responsive {
