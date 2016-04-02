@@ -29,9 +29,9 @@
     <link href="T.ico "rel="shortcut icon">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#myNav" data-offset="80">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -83,7 +83,7 @@
 
     <div class="container" id="about">
       <a name="about"></a>
-      <h2>About me</h2>
+      <h1 id="about" class="section-heading">About me</h1>
       <p class="lead">
         About me ... TODO
       </p>
@@ -128,7 +128,7 @@
 
     <div class="container" id="projects">
       <a name="projects"></a>
-      <h2>Projects</h2>
+      <h1 id="projects" class="section-heading">Projects</h1>
       <p class="lead">
         I love projects. Having been a loyal but passive reader most of my life, work on creative projects
         has brought the energetic side out of me while stretching my imagination and abilities.
@@ -264,18 +264,6 @@
 
         <div class="row">
           <div class="col-sm-6">
-            <a href="https://bruindashboard.shinyapps.io/Sensors/">
-              <div class="thumbnail">
-                <p class="lead project-title">IBM Watson Case Presentation <small>(2014)</small></p>
-                <img src="img/watson.png" class="img-responsive">
-                <p class="lead project-text">
-                  TODO ...
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-sm-6">
             <a href="http://bit.ly/1nXjqFI">
               <div class="thumbnail">
                 <p class="lead project-title">UCLA DataFest <small>(2015)</small></p>
@@ -287,38 +275,43 @@
               </div>
             </a>
           </div>
+
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <p class="lead project-title">IBM Watson Case Presentation <small>(2014)</small></p>
+              <img src="img/watson.png" class="img-responsive">
+              <p class="lead project-text">
+                TODO ...
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="row">
           <div class="col-sm-6">
-            <a href="#">
-              <div class="thumbnail">
-                <p class="lead project-title">Target Case Competition <small>(2014)</small></p>
-                <img src="#" class="img-responsive">
-                <p class="lead project-text">
-                  TODO ...
-                </p>
-
-              </div>
-            </a>
+            <div class="thumbnail">
+              <p class="lead project-title">Target Case Competition <small>(2014)</small></p>
+              <img src="#" class="img-responsive">
+              <p class="lead project-text">
+                TODO ...
+              </p>
+            </div>
           </div>
 
           <div class="col-sm-6">
-            <a href="#">
-              <div class="thumbnail">
-                <p class="lead project-title">Honduras Microfinance Trip <small>(2014)</small></p>
-                <img src="#" class="img-responsive">
-                <p class="lead project-text">
-                  TODO ...
-                </p>
-              </div>
-            </a>
+            <div class="thumbnail">
+              <p class="lead project-title">Honduras Microfinance Trip <small>(2014)</small></p>
+              <img src="#" class="img-responsive">
+              <p class="lead project-text">
+                TODO ...
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
     <div class="container" id="bookmarks">
-      <h2>Bookmarks</h2>
+      <h1 class="section-heading">Bookmarks</h1>
       <p class="lead">
         <a href="bookmarks.html">Check out</a>
         a list of useful resources I compiled and my favorite reads. TODO ...
@@ -326,12 +319,12 @@
     </div>
 
     <div class="container" id="intern">
-      <h2>I am looking for a <mark>summer internship</mark>!</h2>
+      <h1 class="section-heading">I am looking for a <mark>summer internship</mark>!</h1>
     </div>
 
     <div class="container" id="contact">
       <a name="contact"></a>
-      <h2>Contact me!</h2>
+      <h1 id="contact" class="section-heading">Contact me!</h1>
         <address>
           <p class="lead">Email me at <a href="mailto:tni@ucla.edu">tni@ucla.edu</a></p>
           <p class="lead">Find my writings on <a href="https://medium.com/@tyson_ni" target="_blank">Medium</a></p>
@@ -343,7 +336,8 @@
   </body>
 
   <script>
-    var shiftWindow = function() { window.scrollBy(0, -50) };
+    var offset = -50;
+    var shiftWindow = function() { window.scrollBy(0, offset) };
     if (location.hash) shiftWindow();
     window.addEventListener("hashchange", shiftWindow);
   </script>
@@ -354,6 +348,14 @@
     $(homeSelection).toggleClass("active");
     $(allSelections).on("click", function(event) {
       $(this).toggleClass("active").siblings().removeClass("active");
+    });
+  </script>
+
+  <script>
+    $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+          $(this).collapse('hide');
+      }
     });
   </script>
 

@@ -3,25 +3,34 @@ background color: #F8F5EF
 link color: #D1792A
 narbar name color: #138D75
 navbar link color: #4592D7
+selection color: #F4D03F
  */
 
 body {
   font-family: 'Nunito', sans-serif;
   background-color: #F8F5EF;
   margin-bottom: 70px;
+  position: relative;
 }
 
 div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
-  padding-left: 70px;
-  padding-right: 70px;
-  margin-bottom: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width : 480px) {
+  div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+  }
 }
 
 div#intro {
-  margin-top: 90px;
+  margin-top: 100px;
   text-align: center;
 }
-
 
 div#intro h3 {
   font-weight: lighter;
@@ -45,7 +54,7 @@ nav {
   font-weight: 400;
 }
 
-h2 {
+h1.section-heading {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -115,9 +124,13 @@ a {
   color: #D1792A !important;
 }
 
+::selection {
+  background-color: #F4D03F;
+}
+
 mark {
   background: #D4EFDF;
-  padding: 0.1em;
+  padding: 0em;
 }
 
 .row a {
