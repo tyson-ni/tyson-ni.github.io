@@ -14,8 +14,8 @@ body {
 }
 
 div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 120px;
+  padding-right: 120px;
   margin-bottom: 80px;
 }
 
@@ -28,12 +28,8 @@ div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#b
 }
 
 div#intro {
-  margin-top: 100px;
+  margin-top: 110px;
   text-align: center;
-}
-
-div#intro h3 {
-  font-weight: lighter;
 }
 
 div.thumbnail {
@@ -49,6 +45,13 @@ nav {
   font-size: 120%;
 }
 
+#profile-pic {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 #me-ucla-heading {
   font-size: 45px;
   font-weight: 400;
@@ -60,7 +63,7 @@ h1.section-heading {
 }
 
 p.intro {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 25px;
   line-height: 40px;
   font-weight: 300;
@@ -103,16 +106,12 @@ a.navbar-brand {
 
 li.active a {
   background-color: inherit !important;
-  border-bottom: solid 2px !important;
-  padding-bottom: 3px !important;
+  border-bottom: solid 2px;
+  padding-bottom: 3px;
 }
 
 .navbar-nav a {
   color: #4592D7 !important;
-}
-
-.navbar-brand {
-  color: #D1792A !important;
 }
 
 table {
@@ -120,8 +119,8 @@ table {
   font-weight: lighter;
 }
 
-a {
-  color: #D1792A !important;
+a, a:hover {
+  color: #D1792A;
 }
 
 ::selection {
