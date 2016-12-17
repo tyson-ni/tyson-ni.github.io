@@ -1,0 +1,117 @@
+body {
+  font-family: 'Hind', sans-serif;
+  background-color: #F8F5EF;
+  margin-bottom: 70px;
+  position: relative; }
+
+div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 80px; }
+
+@media only screen and (max-width: 480px) {
+  div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px; } }
+div#intro {
+  margin-top: 110px; }
+
+div.thumbnail {
+  background-color: #FFFFF9; }
+
+div.thumbnail:hover {
+  background-color: #FAFDFB; }
+
+nav {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 120%;
+  font-weight: 400; }
+
+#profile-pic {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.me-heading {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.section-heading {
+  margin-bottom: 50px; }
+
+p.intro {
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300; }
+
+p.lead {
+  line-height: 150%; }
+
+p.project-title {
+  margin: 10px;
+  color: #D1792A;
+  font-weight: bolder;
+  font-size: 25px;
+  border: none;
+  font-family: "Lato", sans-serif; }
+
+p.project-text {
+  font-family: 'Hind', sans-serif;
+  color: black;
+  margin: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none; }
+
+.navbar-default {
+  background-color: #F8F5EF;
+  border: none; }
+
+a.navbar-brand {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 130%;
+  color: #138D75 !important;
+  margin-right: 80px;
+  font-weight: 700; }
+
+li.active a {
+  background-color: inherit !important;
+  border-bottom: solid 2px;
+  padding-bottom: 3px; }
+
+.navbar-nav a {
+  color: #4592D7 !important; }
+
+table {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter; }
+
+a, a:hover {
+  color: #D1792A; }
+
+::selection {
+  background-color: #F4D03F; }
+
+mark {
+  background: #D4EFDF;
+  padding: 0em; }
+
+.row a {
+  text-decoration: none; }
+
+.img-responsive {
+  width: 400px; }
+
+small {
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 10px; }
+
+.centered {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

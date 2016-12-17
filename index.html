@@ -10,16 +10,307 @@
 
     <title>Tyson Ni</title>
 
-    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-    <link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="T.ico "rel="shortcut icon">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700" rel="stylesheet">
+
   </head>
 
-  <body>
-    <div style='text-align: center; font-size: 35px; margin-top: 50px; font-family: sans-serif;'>
-      I'm redesigning this page. Stay tuned ...
+  <body data-spy="scroll" data-target="#myNav" data-offset="90">
+
+    <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Tyson Ni</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me!</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" id="intro">
+      <div>
+        <h1 class="me-heading centered">I'm a student at UCLA,</h1>
+        <br>
+        <p class="intro centered">I like
+          <a href="http://tyson-ni.github.io/Stats-Classes-Visualized/">visualizing</a>,
+          <a href="https://github.com/tyson-ni/crime_kaggle">analyzing</a>
+          and
+          <a href="https://www.kaggle.com/tysonni">modeling</a>
+          data,
+        </p>
+        <p class="intro centered">
+          I
+          <a href="https://medium.com/@tyson_ni/highlights">read</a>
+          <a href="http://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536">a</a>
+          <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555">lot</a>
+          and sometimes
+          <a href="https://medium.com/@tyson_ni">write,</a>
+        </p>
+        <p class="intro centered">
+          I want to work on
+          <mark>meaningful projects</mark>
+          ...
+        </p>
+      </div>
+
     </div>
+
+    <div class="container" id="about">
+      <a name="about"></a>
+      <h1 id="about" class="section-heading centered">About me</h1>
+      <p class="lead">
+        From my earliest days, I had this urge to be in the know.
+        I would read newspapers and books, and follow business, tech and politics.
+        Many things changed but my passion for reading never went away.
+      </p>
+      <p class="lead">
+        I think my biggest asset is my desire to learn new things.
+        In my free time, I would seek out tutorials on technical subjects and read articles on different topics.
+        Sometimes this desire would lead me to seek breadth over depth.
+        I would sometimes be satisfied with my knowledge on a certain subject,
+        despite knowing that there's much more to learn.
+      </p>
+      <p class="lead">
+        But it's also led me to pick up data analysis, machine learning and web development skills
+        – all within the last year.
+        Over the last year, many things seemed to have connected
+        and my learning over the last 20 years seemed to have paid off in a visceral way.
+      </p>
+      <img src="img/profile-pic.jpg" id="profile-pic" class="img-responsive">
+      <p class="lead">
+        TODO ...
+      </p>
+      <p class="lead">
+        I also like soccer,
+        <a href="https://www.youtube.com/watch?v=Q888PBtrWc0">music</a>,
+        <a href="https://www.youtube.com/watch?v=V5Z_ZducwbQ">comedy</a>
+        and design, among other things
+      </p>
+      <p class="lead">
+        I don't want to predict or promise what I might or could do in the future,
+        knowing that life will take me to strange new places.
+      </p>
+    </div>
+
+    <div class="container" id="projects">
+      <a name="projects"></a>
+      <h1 id="projects" class="section-heading centered">Projects</h1>
+      <p class="lead">
+        I love side projects. Working on creative ideas born (usually) during showers
+        has brought the spontaneous side out of me and stretched my imagination and abilities.
+      </p>
+      <p class="lead">
+        (For example, this webpage is a continuous project where I apply the latest web dev skills I learned
+        to showcase my past and current experiences
+        with potential employers, friends and family.)
+      </p>
+      <p class="lead">
+        Whether it's getting insights out of large amounts of information
+        or visually presenting them to a general audience, I learnt a lot working on them.
+      </p>
+      <p class="lead">
+        Here's a sample:
+      </p>
+    </div>
+
+      <div class="container" id="showcase">
+
+        <div class='row'>
+
+          <div class='col-sm-6'>
+            <a href="http://tyson-ni.github.io/Stats-Classes-Visualized">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Visualizing UCLA Stats Program <small>(2016)</small></p>
+                <img src="img/stats_visualized.png" class="img-responsive">
+                <p class="lead project-text">
+                  I made this visualization of the UCLA Stats program to help students
+                  select classes and plan for their major or minor.
+                  Working on this project improved my design intuition and ability to visually communicate complex information.
+                </p>
+                <p class="lead project-text">
+                  It was the first web app I built "from scratch",
+                  using vanilla JavaScript, D3.js, Bootstrap CSS and HTML. I shared it with more than 700 Stats Club members and received positive feedback.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="http://stack.dailybruin.com/2016/02/24/grades-ge/">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Lecture Grades Blog Post
+                  <small>(2016)</small>
+                </p>
+                <img src="img/ge.png" class="img-responsive">
+                <p class="lead project-text">
+                  I analyzed the official grade distribution data and made interactive tools to help students
+                  compare GE classes. The article also examined interesting aspects related to GE classes with graphs
+                  and provided a way for students to lookup the statistics of any class.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-6">
+            <a href="http://bit.ly/1K0muLw">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Data Visualization Workshop
+                  <small>(2016)</small>
+                </p>
+                <p class="lead project-text">
+                  I ran this workshop for Stats Club members, introducing data visualization.
+                </p>
+                <p class="lead project-text">
+                  To make the workshop useful for members with different backgrounds,
+                  I provided a broad overview while also teaching specific techniques.
+                  We critiqued examples and discussed how having a Point of View
+                  is essential to bringing meaning out of raw data.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="https://www.kaggle.com/c/sf-crime">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Kaggle SF Crime Contest
+                  <small>(2015)</small>
+                </p>
+                <p class="lead project-text">
+                  In this machine learning contest, I worked with socio-geographic data and built predictive models.
+                  The biggest challenge was to estimate a probability distribution for each observation,
+                  rather than simply provide a one-shot classification. To deal with this challenge, I tried random sampling and variable engineering.
+                  Having done a few other Kaggle competitions, I learn the most from this.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-6">
+            <a href="https://bruindashboard.shinyapps.io/Sensors/">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Air Sensor Dashboard <small>(2015)</small></p>
+                <img src="img/shiny.png" class="img-responsive">
+                <p class="lead project-text">
+                  I built a dashboard to provide an overview of CO2 level, temperature and humidity. It also provided an easy way for users to examine the relationship between any two variables and interactively lookup the raw data.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="http://bit.ly/1nXjqFI">
+              <div class="thumbnail">
+                <p class="lead project-title centered">UCLA DataFest <small>(2015)</small></p>
+                <img src="img/datafest.png" class="img-responsive">
+                <p class="lead project-text">
+                  Three teammates and I participated in UCLA's annual data hackathon
+                  where we analyzed data provided by a car sales website.
+                  I picked up a lot of new tools and the event kickstarted my passion for writing code to solve data problems.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <p class="lead project-title centered">IBM Watson Case Presentation <small>(2014)</small></p>
+              <p class="lead project-text">
+                I collaborated with three students to imagine deploying the IBM Watson AI
+                in Chase bank branches
+                and we suggested ways it could help transform the customer service experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <p class="lead project-title centered">Target Case Competition <small>(2014)</small></p>
+              <p class="lead project-text">
+                A teammate and I developed proposals to improve
+                Target's ability to serve the Asian American customer segment.
+                Our presentation examined ways to target that market with better
+                product selection and geographic distribution.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <p class="lead project-title centered">Honduras Microfinance Trip <small>(2014)</small></p>
+              <p class="lead project-text">
+                I was part of a group of ten students who traveled to a Honduran village
+                to learn from and advise a local microfinance co-op.
+                We interviewed community members and developed proposals
+                to sustain the co-op's cash flow and improve member participation rate.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <a href="img/bathrooms.png">
+              <div class="thumbnail">
+                <p class="lead project-title centered">Bathrooms of UCLA <small>(2015)</small></p>
+                <img src="img/bathrooms.png" class="img-responsive">
+                <p class="lead project-text">
+                  Inspired by a blog post on a fun type of visualization called Chernoff Faces,
+                  I rated bathrooms at UCLA and made these faces to represent variables like
+                  cleanliness, privacy, etc.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    <div class="container" id="contact">
+      <a name="contact"></a>
+      <h1 id="contact" class="section-heading centered">Contact me!</h1>
+        <address>
+          <p class="lead">Email me at <a href="mailto:tni@ucla.edu">tni@ucla.edu</a></p>
+          <p class="lead">Find my writings on <a href="https://medium.com/@tyson_ni" target="_blank">Medium</a></p>
+          <p class="lead">Connect with me on <a href="https://www.linkedin.com/in/tyson-ni-b8755575" target="_blank">Linkedin</a></p>
+          <p class="lead">Check out my code on <a href="https://github.com/tyson-ni?tab=repositories" target="_blank">Github</a></p>
+      </address>
+    </div>
+
   </body>
 
 </html>

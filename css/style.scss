@@ -1,14 +1,16 @@
-/*
-background color: #F8F5EF
-link color: #D1792A
-narbar name color: #138D75
-navbar link color: #4592D7
-selection color: #F4D03F
- */
+$background-offwhite: #F8F5EF;
+$highlight-orange: #D1792A;
+$name-green: #138D75;
+$nav-blue: #4592D7;
+$selection-yellow: #F4D03F;
+$project-offwhite: #FFFFF9;
+$project-offwhite-blue: #FAFDFB;
+$highlight-green: #D4EFDF;
+
 
 body {
-  font-family: 'Nunito', sans-serif;
-  background-color: #F8F5EF;
+  font-family: 'Hind', sans-serif;
+  background-color: $background-offwhite;
   margin-bottom: 70px;
   position: relative;
 }
@@ -29,20 +31,20 @@ div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#b
 
 div#intro {
   margin-top: 110px;
-  text-align: center;
 }
 
 div.thumbnail {
-  background-color: #FFFFF9;
+  background-color: $project-offwhite;
 }
 
 div.thumbnail:hover {
-  background-color: #FAFDFB;
+  background-color: $project-offwhite-blue;
 }
 
 nav {
   font-family: "PT Sans Caption", sans-serif;
   font-size: 120%;
+  font-weight: 400;
 }
 
 #profile-pic {
@@ -52,13 +54,13 @@ nav {
   margin-bottom: 60px;
 }
 
-#me-ucla-heading {
-  font-size: 45px;
+.me-heading {
+  font-size: 50px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
-h1.section-heading {
-  text-align: center;
+.section-heading {
   margin-bottom: 50px;
 }
 
@@ -75,10 +77,9 @@ p.lead {
 
 p.project-title {
   margin: 10px;
-  color: #D1792A;
+  color: $highlight-orange;
   font-weight: bolder;
   font-size: 25px;
-  text-align: center;
   border: none;
   font-family: "Lato", sans-serif;
 }
@@ -93,15 +94,16 @@ p.project-text {
 }
 
 .navbar-default {
-  background-color: #F8F5EF;
+  background-color: $background-offwhite;
   border: none;
 }
 
 a.navbar-brand {
-  font-family: "Nunito", sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
   font-size: 130%;
-  color: #138D75 !important;
+  color: $name-green !important;
   margin-right: 80px;
+  font-weight: 700;
 }
 
 li.active a {
@@ -111,7 +113,7 @@ li.active a {
 }
 
 .navbar-nav a {
-  color: #4592D7 !important;
+  color: $nav-blue !important;
 }
 
 table {
@@ -120,15 +122,15 @@ table {
 }
 
 a, a:hover {
-  color: #D1792A;
+  color: $highlight-orange;
 }
 
 ::selection {
-  background-color: #F4D03F;
+  background-color: $selection-yellow;
 }
 
 mark {
-  background: #D4EFDF;
+  background: $highlight-green;
   padding: 0em;
 }
 
@@ -144,4 +146,8 @@ small {
   font-weight: 300;
   font-size: 20px;
   padding-left: 10px;
+}
+
+.centered {
+  text-align: center;
 }
