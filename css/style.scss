@@ -31,7 +31,6 @@ div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#b
 
 div#intro {
   margin-top: 110px;
-  text-align: center;
 }
 
 div.thumbnail {
@@ -55,13 +54,13 @@ nav {
   margin-bottom: 60px;
 }
 
-#me-ucla-heading {
-  font-size: 45px;
+.me-heading {
+  font-size: 50px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
-h1.section-heading {
-  text-align: center;
+.section-heading {
   margin-bottom: 50px;
 }
 
@@ -81,7 +80,6 @@ p.project-title {
   color: $highlight-orange;
   font-weight: bolder;
   font-size: 25px;
-  text-align: center;
   border: none;
   font-family: "Lato", sans-serif;
 }
@@ -148,4 +146,8 @@ small {
   font-weight: 300;
   font-size: 20px;
   padding-left: 10px;
+}
+
+.centered {
+  text-align: center;
 }
