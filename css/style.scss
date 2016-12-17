@@ -1,65 +1,90 @@
+$background-offwhite: #F8F5EF;
+$highlight-orange: #D1792A;
+$name-green: #138D75;
+$nav-blue: #4592D7;
+$selection-yellow: #F4D03F;
+$project-offwhite: #FFFFF9;
+$project-offwhite-blue: #FAFDFB;
+$highlight-green: #D4EFDF;
+
+
 body {
   font-family: 'Hind', sans-serif;
-  background-color: #F8F5EF;
+  background-color: $background-offwhite;
   margin-bottom: 70px;
-  position: relative; }
+  position: relative;
+}
 
 div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
   padding-left: 120px;
   padding-right: 120px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width : 480px) {
   div#intro, div#about, div#projects, div#showcase, div#contact, div#intern, div#bookmarks {
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+  }
+}
+
 div#intro {
   margin-top: 110px;
-  text-align: center; }
+  text-align: center;
+}
 
 div.thumbnail {
-  background-color: #FFFFF9; }
+  background-color: $project-offwhite;
+}
 
 div.thumbnail:hover {
-  background-color: #FAFDFB; }
+  background-color: $project-offwhite-blue;
+}
 
 nav {
   font-family: "PT Sans Caption", sans-serif;
   font-size: 120%;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 #profile-pic {
   display: block;
   margin: auto;
   margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
 
 #me-ucla-heading {
   font-size: 45px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 h1.section-heading {
   text-align: center;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 p.intro {
   margin-top: 30px;
   font-size: 25px;
   line-height: 40px;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 p.lead {
-  line-height: 150%; }
+  line-height: 150%;
+}
 
 p.project-title {
   margin: 10px;
-  color: #D1792A;
+  color: $highlight-orange;
   font-weight: bolder;
   font-size: 25px;
   text-align: center;
   border: none;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 p.project-text {
   font-family: 'Hind', sans-serif;
@@ -67,50 +92,60 @@ p.project-text {
   margin: 30px;
   padding-left: 5px;
   padding-right: 5px;
-  border: none; }
+  border: none;
+}
 
 .navbar-default {
-  background-color: #F8F5EF;
-  border: none; }
+  background-color: $background-offwhite;
+  border: none;
+}
 
 a.navbar-brand {
   font-family: "PT Sans Caption", sans-serif;
   font-size: 130%;
-  color: #138D75 !important;
+  color: $name-green !important;
   margin-right: 80px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 li.active a {
   background-color: inherit !important;
   border-bottom: solid 2px;
-  padding-bottom: 3px; }
+  padding-bottom: 3px;
+}
 
 .navbar-nav a {
-  color: #4592D7 !important; }
+  color: $nav-blue !important;
+}
 
 table {
   font-family: 'Hind', sans-serif;
-  font-weight: lighter; }
+  font-weight: lighter;
+}
 
 a, a:hover {
-  color: #D1792A; }
+  color: $highlight-orange;
+}
 
 ::selection {
-  background-color: #F4D03F; }
+  background-color: $selection-yellow;
+}
 
 mark {
-  background: #D4EFDF;
-  padding: 0em; }
+  background: $highlight-green;
+  padding: 0em;
+}
 
 .row a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .img-responsive {
-  width: 400px; }
+  width: 400px;
+}
 
 small {
   font-weight: 300;
   font-size: 20px;
-  padding-left: 10px; }
-
-/*# sourceMappingURL=style.css.map */
+  padding-left: 10px;
+}
