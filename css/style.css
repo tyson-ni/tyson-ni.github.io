@@ -32,7 +32,9 @@ nav {
   display: block;
   margin: auto;
   margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  height: 250px;
+  width: 250px; }
 
 .me-heading {
   font-size: 50px;
@@ -86,12 +88,9 @@ li.active a {
 .navbar-nav a {
   color: #4592D7 !important; }
 
-table {
-  font-family: 'Hind', sans-serif;
-  font-weight: lighter; }
-
 a, a:hover {
-  color: #D1792A; }
+  color: #D1792A;
+  text-decoration: none; }
 
 ::selection {
   background-color: #F4D03F; }
@@ -99,9 +98,6 @@ a, a:hover {
 mark {
   background: #D4EFDF;
   padding: 0em; }
-
-.row a {
-  text-decoration: none; }
 
 .img-responsive {
   width: 400px; }

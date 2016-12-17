@@ -52,6 +52,8 @@ nav {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  height: 250px;
+  width: 250px;
 }
 
 .me-heading {
@@ -116,13 +118,9 @@ li.active a {
   color: $nav-blue !important;
 }
 
-table {
-  font-family: 'Hind', sans-serif;
-  font-weight: lighter;
-}
-
 a, a:hover {
   color: $highlight-orange;
+  text-decoration: none;
 }
 
 ::selection {
@@ -132,10 +130,6 @@ a, a:hover {
 mark {
   background: $highlight-green;
   padding: 0em;
-}
-
-.row a {
-  text-decoration: none;
 }
 
 .img-responsive {
