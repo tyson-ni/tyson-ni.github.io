@@ -206,4 +206,28 @@
 
   </body>
 
+  <script>
+    var offset = -50;
+    var shiftWindow = function() { window.scrollBy(0, offset) };
+    if (location.hash) shiftWindow();
+    window.addEventListener("hashchange", shiftWindow);
+  </script>
+
+  <script>
+    var homeSelection = ".navbar-nav li:first-child";
+    var allSelections = ".navbar-nav li";
+    $(homeSelection).toggleClass("active");
+    $(allSelections).on("click", function(event) {
+      $(this).toggleClass("active").siblings().removeClass("active");
+    });
+  </script>
+
+  <script>
+    $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+          $(this).collapse('hide');
+      }
+    });
+  </script>
+
 </html>
