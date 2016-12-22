@@ -55,6 +55,7 @@ body {
 
     @media only screen and (max-width : $mobile-threshold) {
       font-size: $font1-size * $mobile-font-ratio;
+      margin-bottom: 10px;
   }
 }
 
@@ -75,6 +76,7 @@ body {
 
   @media only screen and (max-width : $mobile-threshold) {
     font-size: $font2-size * $mobile-font-ratio;
+    margin-top: 20px;
   }
 }
 
@@ -85,7 +87,7 @@ body {
   margin-bottom: 20px;
 
   @media only screen and (max-width : $mobile-threshold) {
-    font-size: $font3-size * $mobile-font-ratio;
+    font-size: $font2-size * $mobile-font-ratio;
   }
 }
 
@@ -96,7 +98,7 @@ body {
   border: none;
 
   @media only screen and (max-width : $mobile-threshold) {
-    font-size: $font3-size * $mobile-font-ratio;
+    font-size: $font2-size * $mobile-font-ratio;
   }
 }
 
@@ -110,7 +112,7 @@ body {
   border: none;
 
   @media only screen and (max-width : $mobile-threshold) {
-    font-size: $font4-size * $mobile-font-ratio;
+    font-size: $font3-size * $mobile-font-ratio;
   }
 }
 
