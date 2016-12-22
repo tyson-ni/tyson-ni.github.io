@@ -8,11 +8,20 @@ body {
   padding-left: 270px;
   padding-right: 270px;
   margin-bottom: 60px; }
+  @media only screen and (max-width: 1024px) {
+    .section {
+      padding-left: 180px;
+      padding-right: 180px; } }
+  @media only screen and (max-width: 768px) {
+    .section {
+      padding-left: 80px;
+      padding-right: 80px;
+      margin-bottom: 40px; } }
   @media only screen and (max-width: 480px) {
     .section {
       padding-left: 30px;
       padding-right: 30px;
-      margin-bottom: 40px; } }
+      margin-bottom: 30px; } }
 
 #intro {
   margin-top: 110px; }

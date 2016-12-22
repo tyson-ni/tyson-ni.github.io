@@ -7,6 +7,8 @@ $project-offwhite: #FFFFF9;
 $project-offwhite-blue: #FAFDFB;
 $highlight-green: #D4EFDF;
 $mobile-threshold: 480px;
+$tablet-threshold: 768px;
+$medium-threshold: 1024px;
 $font1-size: 55px;
 $font2-size: 30px;
 $font3-size: 22px;
@@ -25,10 +27,21 @@ body {
   padding-right: 270px;
   margin-bottom: 60px;
 
+  @media only screen and (max-width : $medium-threshold) {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  @media only screen and (max-width : $tablet-threshold) {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+  }
+
   @media only screen and (max-width : $mobile-threshold) {
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 
