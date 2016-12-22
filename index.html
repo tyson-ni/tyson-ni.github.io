@@ -16,10 +16,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="T.ico "rel="shortcut icon">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
   </head>
 
+  
+  <!--navigation menu -->
   <body data-spy="scroll" data-target="#myNav" data-offset="90">
 
     <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
@@ -44,6 +45,7 @@
       </div>
     </nav>
 
+    <!--intro section on top-->
     <div class="container section" id="intro">
         <h1 class="big-heading centered bold">I'm a student at UCLA,</h1>
         <br>
@@ -54,38 +56,41 @@
         <p class="intro-text centered"><a href='#contact'>Let me know</a> if you have a bright future I can help build.</p>
     </div>
 
+    <!--about me section-->
     <div class="container section" id="about">
       <a name="about"></a>
       <p class="section-heading centered bold">About me</p>
 
-      <p class=text>
+      <p class=main-text>
         Everyday I am fascinated by data. And in the last couple of years, I’ve honed my skills at answering questions that arose from different domains.
       </p>
 
-      <p class=text>
+      <p class=main-text>
         <mark>How long did my puppy bark after we left him home alone?</mark> I placed an audio recorder at home, and after getting back I wrote a Python script to analyze the (3-hour-long) audio. As it turns out, he was naughty for two minutes after we left, but quieted down soon after, to my relief. 
       </p>
 
-      <p class=text>
+      <p class=main-text>
         <mark>How are academic subjects related?</mark> I scraped course descriptions and applied the <i>Word2vec</i> algorithm to dissect the semantic relationships between various subjects. Later I would turn that analysis into an interactive article to help students understand their areas of interest.
       </p>
     </div>
 
+    <!--project section lead-->
     <div class="container section" id="projects">
       <a name="projects"></a>
       <p class="section-heading centered bold">Projects</p>
-      <p class="text">
+      <p class="main-text">
        Here are some of my projects:
       </p>
     </div>
 
+    <!--project section showcase-->
     <div class="container" id="showcase">
 
       <div class='col-sm-6'>
         <a href="https://stack.dailybruin.com/2016/11/22/gym-traffic/">
           <div class="thumbnail">
-            <p class="text project-title centered">UCLA Gym Traffic (2016)</p>
-            <p class="text project-text">
+            <p class="main-text project-title centered">UCLA Gym Traffic (2016)</p>
+            <p class="project-text">
               Using entrance data to UCLA facilities, I helped students choose the right time and place to go work out. This was my proudest project and it involved: writing a proposal to request data, simulating traffic patterns using statistical models, highlighting the "present" in graphics, and writing responsive code on the frontend.
             </p>
           </div>
@@ -95,9 +100,9 @@
         <div class='col-sm-6'>
           <a href="http://tyson-ni.github.io/Stats-Classes-Visualized">
             <div class="thumbnail">
-              <p class="text project-title centered">Visualizing Stats Program (2016)</p>
+              <p class="main-text project-title centered">Visualizing Stats Program (2016)</p>
               <img src="img/stats_visualized.png" class="img-responsive">
-              <p class="text project-text">
+              <p class="project-text">
                 I made this visualization to help Statistics students pick classes and plan for their major.
                 Working on this project improved my design intuition and ability to visualize relations.
               </p>
@@ -108,8 +113,8 @@
         <div class="col-sm-6">
           <a href="http://stack.dailybruin.com/2016/02/24/grades-ge/">
             <div class="thumbnail">
-              <p class="text project-title centered">Easy Classes (2016)</p>
-              <p class="text project-text">
+              <p class="main-text project-title centered">Easy Classes (2016)</p>
+              <p class="project-text">
                 I analyzed the grade distribution data and made interactive tools to help students pick GE classes.
               </p>
             </div>
@@ -119,8 +124,8 @@
         <div class="col-sm-6">
           <a href="http://bit.ly/1K0muLw">
             <div class="thumbnail">
-              <p class="text project-title centered">Data Visualization Workshop (2016)</p>
-              <p class="text project-text">
+              <p class="main-text project-title centered">Data Visualization Workshop (2016)</p>
+              <p class="project-text">
                 I ran a workshop for Stats Club members, introducing them to data visualization.
               </p>
             </div>
@@ -130,8 +135,8 @@
         <div class="col-sm-6">
           <a href="https://www.kaggle.com/c/sf-crime">
             <div class="thumbnail">
-              <p class="text project-title centered">Kaggle Crime Contest (2015)</p>
-              <p class="text project-text">
+              <p class="main-text project-title centered">Kaggle Crime Contest (2015)</p>
+              <p class="project-text">
                 In this machine learning contest, the biggest challenge was to estimate a probability distribution for each observation, rather than simply provide a one-shot classification. To deal with this challenge, I tried random sampling and feature engineering. Having done other Kaggle competitions, I learn the most from this.
               </p>
             </div>
@@ -141,9 +146,9 @@
         <div class="col-sm-6">
           <a href="https://bruindashboard.shinyapps.io/Sensors/">
             <div class="thumbnail">
-              <p class="text project-title centered">Air Sensor Dashboard (2015)</p>
+              <p class="main-text project-title centered">Air Sensor Dashboard (2015)</p>
               <img src="img/shiny.png" class="img-responsive">
-              <p class="text project-text">
+              <p class="project-text">
                 I built a dashboard to provide an overview of CO2 level, temperature and humidity. It also allowed  users to examine the relationship between any two variables and interactively lookup the raw data.
               </p>
             </div>
@@ -153,8 +158,8 @@
         <div class="col-sm-6">
           <a href="http://bit.ly/1nXjqFI">
             <div class="thumbnail">
-              <p class="text project-title centered">UCLA DataFest (2015)</p>
-              <p class="text project-text">
+              <p class="main-text project-title centered">UCLA DataFest (2015)</p>
+              <p class="project-text">
                 Three teammates and I participated in UCLA's annual data hackathon where we analyzed data provided by a car sales website. I picked up a lot of new tools and this event kickstarted my passion for writing code to solve data problems.
               </p>
             </div>
@@ -163,8 +168,8 @@
         
         <div class="col-sm-6">
           <div class="thumbnail">
-            <p class="text project-title centered">IBM Watson Case Presentation (2014)</p>
-            <p class="text project-text">
+            <p class="main-text project-title centered">IBM Watson Case Presentation (2014)</p>
+            <p class="project-text">
               I worked with two teammates to envison deploying the IBM Watson AI in Chase bank branches.
             </p>
           </div>
@@ -172,8 +177,8 @@
 
         <div class="col-sm-6">
           <div class="thumbnail">
-            <p class="text project-title centered">Honduras Microfinance Trip (2014)</p>
-            <p class="text project-text">
+            <p class="main-text project-title centered">Honduras Microfinance Trip (2014)</p>
+            <p class="project-text">
               I was part of a group of ten students who traveled to a Honduran village to learn from and advise a local microfinance co-op.
             </p>
           </div>
@@ -182,9 +187,9 @@
         <div class="col-sm-6">
           <a href="img/bathrooms.png">
             <div class="thumbnail">
-              <p class="text project-title centered">Bathrooms of UCLA (2015)</p>
+              <p class="main-text project-title centered">Bathrooms of UCLA (2015)</p>
               <img src="img/bathrooms.png" class="img-responsive">
-              <p class="text project-text">
+              <p class="project-text">
                 Inspired by a blog post on a fun type of graphics called Chernoff Faces,
                 I rated bathrooms at UCLA and used facial features to represent variables like cleanliness, privacy, etc.
               </p>
@@ -194,18 +199,21 @@
 
     </div>
 
+    <!--contact section-->
     <div class="containe section" id="contact">
       <a name="contact"></a>
       <h1 id="contact" class="section-heading centered bold">Contact me!</h1>
         <address>
-          <p class="text">Email me at <a href="mailto:tni@ucla.edu">tni@ucla.edu</a></p>
-          <p class="text">Connect with me on <a href="https://www.linkedin.com/in/tyson-ni-b8755575" target="_blank">Linkedin</a></p>
-          <p class="text">Check out my code on <a href="https://github.com/tyson-ni" target="_blank">Github</a></p>
+          <p class="main-text">Email me at <a href="mailto:tni@ucla.edu">tni@ucla.edu</a></p>
+          <p class="main-text">Connect with me on <a href="https://www.linkedin.com/in/tyson-ni-b8755575" target="_blank">Linkedin</a></p>
+          <p class="main-text">Check out my code on <a href="https://github.com/tyson-ni" target="_blank">Github</a></p>
       </address>
     </div>
 
   </body>
 
+
+  <!--adjust section offset when menu link is clicked-->
   <script>
     var offset = -50;
     var shiftWindow = function() { window.scrollBy(0, offset) };
@@ -213,6 +221,7 @@
     window.addEventListener("hashchange", shiftWindow);
   </script>
 
+  <!--underline menu link when section is being viewed-->
   <script>
     var homeSelection = ".navbar-nav li:first-child";
     var allSelections = ".navbar-nav li";
@@ -222,6 +231,7 @@
     });
   </script>
 
+  <!--mobile menu-->
   <script>
     $(document).on('click','.navbar-collapse.in',function(e) {
       if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
