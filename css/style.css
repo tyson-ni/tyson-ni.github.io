@@ -39,7 +39,7 @@ body {
   margin-bottom: 25px; }
   @media only screen and (max-width: 480px) {
     .section-heading {
-      font-size: 21px; } }
+      font-size: 38.5px; } }
 
 .intro-text {
   font-size: 30px;
@@ -70,7 +70,7 @@ body {
       font-size: 21px; } }
 
 .project-text {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   color: black;
   margin: 30px;
@@ -79,7 +79,7 @@ body {
   border: none; }
   @media only screen and (max-width: 480px) {
     .project-text {
-      font-size: 15.4px; } }
+      font-size: 21px; } }
 
 .thumbnail {
   background-color: #FFFFF9; }

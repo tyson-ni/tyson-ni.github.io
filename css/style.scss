@@ -12,7 +12,6 @@ $medium-threshold: 1024px;
 $font1-size: 55px;
 $font2-size: 30px;
 $font3-size: 22px;
-$font4-size: 18px;
 $mobile-font-ratio: 0.7;
 
 body {
@@ -64,7 +63,7 @@ body {
   margin-bottom: 25px;
 
   @media only screen and (max-width : $mobile-threshold) {
-    font-size: $font2-size * $mobile-font-ratio;
+    font-size: $font1-size * $mobile-font-ratio;
   }
 }
 
@@ -103,7 +102,7 @@ body {
 }
 
 .project-text {
-  font-size: $font4-size;
+  font-size: $font3-size;
   font-weight: 400;
   color: black;
   margin: 30px;
@@ -112,7 +111,7 @@ body {
   border: none;
 
   @media only screen and (max-width : $mobile-threshold) {
-    font-size: $font3-size * $mobile-font-ratio;
+    font-size: $font2-size * $mobile-font-ratio;
   }
 }
 
