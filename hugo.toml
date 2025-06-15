@@ -2,3 +2,6 @@ baseURL = 'https://tyson-ni.github.io/'
 languageCode = 'en-us'
 title = "Tyson Ni"
 theme = "hugo-theme-console"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
