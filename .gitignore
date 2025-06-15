@@ -1,8 +1,7 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+*.test
+imports.*
+dist/
+public/
+.DS_Store 
 CNAME
-.DS_Store
 Gemfile.lock
