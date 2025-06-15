@@ -4,4 +4,4 @@ dist/
 public/
 .DS_Store 
 CNAME
-Gemfile.lock
+*.lock
